@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:  #FFDDE1 /* Set the background color for the entire page */
+}
+
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; 
+    background-size: cover;
+background-position: center; }
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+}
+
+li button:hover {
+    background-color: #c0392b;
+}
+#task{
+	margin-left:-11px;
+}
+.welcome-message {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+	font-size:20px;
+}
+/* Style for task list items */
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* Style for task text */
+.task-text {
+    flex: 1;
+    word-wrap: break-word;
+    margin-right: 5px;
+}
+
+/* Style for edit and delete buttons */
+.edit-button,
+.delete-button,
+.save-button {
+    width: 50px; /* Set width of buttons */
+	margin-right:2px;
+}
+
